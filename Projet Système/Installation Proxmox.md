@@ -6,5 +6,5 @@
 ### Place à l'installation :  
 Après que le serveur ai booté sur la clé l'installateur Proxmox affiche ceci :   
 
-![](1.installation promox.png)  
+![](1.installation proxmox.png)  
 
