@@ -14,4 +14,5 @@ Puis acceptez les conditions générales d'utilisation :
 
 ![](1.accepter_term.png)  
 
-Suite à cela il vous est demandé de choisir le disque d'installation 
+Suite à cela il vous est demandé de choisir le disque d'installation :  
+![](1.choisir_disque.png)
