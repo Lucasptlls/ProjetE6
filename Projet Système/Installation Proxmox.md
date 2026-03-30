@@ -26,3 +26,6 @@ L'étape précédente effectué il faut a présent définir un mot de passe fort
 
 ![](1.définir_mdp.png)
 
+Viens après le moment où il faut attribuer une adresse IP au serveur :  
+
+![](1.ip_fqdn.png)
