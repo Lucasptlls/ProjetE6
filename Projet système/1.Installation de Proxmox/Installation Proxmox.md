@@ -38,3 +38,5 @@ Appuyez sur "Install" et attendre :
 
 ![](1.makesysboot.png)  
 ![](1.installation_ok.png)  
+
+# L'installation désormais finie passons à la configuration du serveur Proxmox !  
