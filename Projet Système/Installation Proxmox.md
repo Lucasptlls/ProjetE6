@@ -1,5 +1,5 @@
 # Installation de Proxmox sur un serveur Dell PowerEdge R810  
-## Pour les besoins de la doc l'installation a été réalise sur une VM donc l'adressage IP, le volume du disque, mot de passe etc diffèrent de mon dossier.  
+## Pour les besoins de la doc l'installation a été réalise sur une VM donc l'adressage IP, le volume du disque, mot de passe etc diffèrent de l'infrastructure.  
 ### Prérequis :
   Clé bootable sur Proxmox v7.4 (version ancienne car carte contrôleur RAID trop ancienne pour les paquets du kernel Linus récent)
 
