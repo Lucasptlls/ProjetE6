@@ -1,5 +1,5 @@
 # Installation de Proxmox sur un serveur Dell PowerEdge R810  
-## Pour les besoins de la doc l'installation a été réalise sur une VM donc l'adressage IP,le volume du disque etc diffère de mon dossier.  
+## Pour les besoins de la doc l'installation a été réalise sur une VM donc l'adressage IP, le volume du disque, mot de passe etc diffère de mon dossier.  
 ### Prérequis :
   Clé bootable sur Proxmox v7.4 (version ancienne car carte contrôleur RAID trop ancienne pour les paquets du kernel Linus récent)
 
@@ -22,7 +22,7 @@ A présent le choix de la langue/fuseau horaire/disposition du clavier est deman
 
 ![](1.choisir_langue.png)  
 
-L'étape précédente effectué il faut a présent définir un mot de passe fort et un adresse email :  
+L'étape précédente effectué il faut a présent définir un mot de passe fort et une adresse email :  
 
 ![](1.définir_mdp.png)
 
