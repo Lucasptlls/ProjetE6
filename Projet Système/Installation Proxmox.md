@@ -34,4 +34,7 @@ Après avoir réalisé toutes ces étapes un sommaire de l'installation est affi
 
 ![](1.cr_dl.png)  
 
+Appuyez sur "Install" et attendre :  
 
+![](1.makesysboot.png)  
+![](1.installation_ok.png)  
