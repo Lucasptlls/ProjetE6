@@ -17,3 +17,12 @@ Puis acceptez les conditions générales d'utilisation :
 Suite à cela il vous est demandé de choisir le disque d'installation : 
 
 ![](1.choisir_disque.png)
+
+A présent le choix de la langue/fuseau horaire/disposition du clavier est demandé :  
+
+![](1.choisir_langue.png)  
+
+L'étape précédente effectué il faut a présent définir un mot de passe fort et un adresse email :  
+
+![](1.définir_mdp.png)
+
