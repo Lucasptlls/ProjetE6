@@ -8,4 +8,9 @@ Après que le serveur ai booté sur la clé l'installateur Proxmox affiche ceci 
 
 ![](1.installation_proxmox.png)
 
+Cliquez sur "Install Proxmox VE"  
+
+Puis acceptez les conditions générales d'utilisation : 
+
+![](1.accepter_term.png)  
 
