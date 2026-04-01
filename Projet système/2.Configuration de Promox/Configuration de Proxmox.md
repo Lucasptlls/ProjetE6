@@ -142,27 +142,6 @@ UUID=xxxx-xxxx  /mnt/group1  ext4  defaults  0  2
 
 ---
 
-## 📊 9. Vérification de l'espace disque
-
-### `df -h /mnt/group1`
-Affiche l'**espace disque utilisé et disponible** pour la partition montée sur `/mnt/group1`.  
-L'option `-h` signifie *human-readable* : les tailles sont affichées en Ko, Mo, Go (plus lisible).
-
----
-
-## 🗺️ Résumé du flux de travail
-
-```
-Nettoyer le disque (wipefs + sgdisk --zap-all)
-        ↓
-Créer 4 partitions GPT (sgdisk -n)
-        ↓
-Formater en ext4 (mkfs.ext4)
-        ↓
-Créer les répertoires de montage (mkdir)
-        ↓
-Monter les partitions (mount)
-        ↓
 Persister les montages au démarrage (nano /etc/fstab)
         ↓
 Vérifier (lsblk, lsblk -f, df -h)
