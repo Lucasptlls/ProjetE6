@@ -128,8 +128,11 @@ Affiche les informations détaillées des partitions de `/dev/sdb`, notamment :
 
 ### Configuration du montage automatique
 
-#### `nano /etc/fstab`
+#### `nano /etc/fstab`  
+
 Ouvre le fichier de configuration `/etc/fstab` avec l'éditeur de texte **nano**.  
-`/etc/fstab` contient la liste des systèmes de fichiers à **monter automatiquement au démarrage**.  
+
+`/etc/fstab` contient la liste des systèmes de fichiers à **monter automatiquement au démarrage**.   
+
 ![](nano_etc_fstab.png)        
 ---
