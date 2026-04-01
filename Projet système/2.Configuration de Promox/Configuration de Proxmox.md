@@ -144,3 +144,8 @@ Ouvre le fichier de configuration `/etc/fstab` avec l'éditeur de texte **nano**
 
 # Création des comptes, des groupes et des rôles.    
 ### Chaque groupe ne doit voir que son pool qui lui est attribuer. Chaque utilisateur est réparti dans un groupe en fonction de la population existante dans un groupe (si le groupe 1 contient 3 users, il faut donc peupler un autre groupe par soucis de stockage dû aux partitions crées)  
+
+------
+### Création des comptes users :  
+![](create_user.png)  
+
