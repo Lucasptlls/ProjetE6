@@ -6,11 +6,9 @@ Depuis un navigateur tapez l'adresse IP du serveur Proxmox ( il faut être dans 
 ![](2.1seco.png)  
 Proxmox utilise un certificat autosigné d'où le message d'erreur. Il faut cliquer sur "Continuez vers..."  
 
-## Explication des commandes Linux — Partitionnement et montage de disque
+## Avant de créer les utilisateurs et les groupes il faut monter le volume de disques et créer les partitions respectives pour chaque groupe.        
 
-> Ces commandes concernent la préparation, le partitionnement, le formatage et le montage du volume de 2to `/dev/sdb`.
-
----
+-----        
 
 ### Nettoyage du disque
 
