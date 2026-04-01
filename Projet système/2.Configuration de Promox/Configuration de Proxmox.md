@@ -149,3 +149,12 @@ Ouvre le fichier de configuration `/etc/fstab` avec l'éditeur de texte **nano**
 ### Création des comptes users :  
 ![](create_user.png)  
 
+----
+
+### Création des groupes :   
+
+![](create_group.png)  
+
+
+----
+
