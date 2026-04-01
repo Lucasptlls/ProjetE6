@@ -131,15 +131,7 @@ Affiche les informations détaillées des partitions de `/dev/sdb`, notamment :
 #### `nano /etc/fstab`
 Ouvre le fichier de configuration `/etc/fstab` avec l'éditeur de texte **nano**.  
 `/etc/fstab` contient la liste des systèmes de fichiers à **monter automatiquement au démarrage**.  
-Chaque ligne suit ce format :
-```
-<périphérique/UUID>  <point_de_montage>  <type_fs>  <options>  <dump>  <pass>
-```
-Exemple :
-```
-UUID=xxxx-xxxx  /mnt/group1  ext4  defaults  0  2
-```
-
+![](nano_etc_fstab.png)        
 ---
 
 Persister les montages au démarrage (nano /etc/fstab)
