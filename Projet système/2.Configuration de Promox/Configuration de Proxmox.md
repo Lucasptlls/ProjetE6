@@ -69,7 +69,9 @@ Formate la partition 4 en **ext4**.
 
 ### `lsblk`
 Liste tous les **périphériques de type bloc** (disques, partitions, etc.) sous forme d'arborescence.  
-Permet de vérifier que les partitions ont bien été créées sur `/dev/sdb`.
+Permet de vérifier que les partitions ont bien été créées sur `/dev/sdb`.        
+
+![](lsblk-a.png)        
 
 ---
 
