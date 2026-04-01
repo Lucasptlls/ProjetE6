@@ -139,8 +139,8 @@ Ouvre le fichier de configuration `/etc/fstab` avec l'éditeur de texte **nano**
 
 ![](nano_etc_fstab.png)      
 
-> Après avoir monté le volume de disque, créer les partitions et les dossiers pour les groupes j'ai entâmé la création des comptes et groupes avec rôle.
+> Après avoir monté le volume de disque, créer les partitions et les dossiers pour les groupes j'ai entamé la création des comptes et groupes avec rôle.
 ----
 
-# Création des comptes, des groupes et des rôles.  
----
+# Création des comptes, des groupes et des rôles.    
+### Chaque groupe ne doit voir que son pool qui lui est attribuer.  
