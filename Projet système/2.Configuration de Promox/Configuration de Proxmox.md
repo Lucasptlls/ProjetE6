@@ -166,13 +166,23 @@ Ouvre le fichier de configuration `/etc/fstab` avec l'éditeur de texte **nano**
 
 ### Création des pools pour les groupes et le backup :  
 
-![](create_poolgroup1.png)    
-![](create_poolgroup2.png)    
-![](create_poolgroup3.png)    
-![](create_poolbackup.png)    
+![](create_pool.png)
+  
 
 ----
 
 ### Création du stockage par groupe et pour le backup
 
+![](create_storage.png)  
+
+-----
+
+### Ajout du stockage dans les pools :   
+
+![](add_storage_poolgroup1.png)    
+![](add_storage_poolgroup2.png)    
+![](add_storage_poolgroup3.png)    
+![](add_storage_poolbackup.png)  
+
+----
 
