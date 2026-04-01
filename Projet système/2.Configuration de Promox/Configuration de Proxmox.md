@@ -122,6 +122,8 @@ Affiche les informations détaillées des partitions de `/dev/sdb`, notamment :
 
 > Très utile pour récupérer les UUID nécessaires à la configuration de `/etc/fstab`.
 
+![](lsblk_-f_dev.png)        
+
 ---
 
 ### Configuration du montage automatique
