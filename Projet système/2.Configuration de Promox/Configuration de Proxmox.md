@@ -61,9 +61,7 @@ Formate la partition 2 en **ext4**.
 Formate la partition 3 en **ext4**.
 
 #### `mkfs.ext4 /dev/sdb4`
-Formate la partition 4 en **ext4**.
-
-> *Note : ces 4 commandes apparaissent deux fois dans le script original. La deuxième série est redondante mais inoffensive — elle reforimate simplement les partitions une seconde fois.*
+Formate la partition 4 en **ext4**.        
 
 ---
 
