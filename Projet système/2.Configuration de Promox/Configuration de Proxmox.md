@@ -18,14 +18,13 @@
 #### `wipefs -a /dev/sdb`
 Efface toutes les **signatures de système de fichiers** (ext4, ntfs, swap, etc.) présentes sur le disque `/dev/sdb`.  
 L'option `-a` signifie *all* : toutes les signatures sont supprimées, pas uniquement la première trouvée.  
-> Utilisé pour "nettoyer" un disque avant de le repartitionner proprement.
 
 ---
 
 #### `sgdisk --zap-all /dev/sdb`
 Supprime **toutes les tables de partitions** (MBR et GPT) présentes sur `/dev/sdb`.  
 `--zap-all` détruit à la fois les données GPT en début et en fin de disque, ainsi que la table MBR.  
-> Après cette commande, le disque est vierge de toute structure de partition.
+
 
 ---
 
@@ -52,7 +51,7 @@ Le second `0` (fin) indique à `sgdisk` d'utiliser le dernier secteur disponible
 
 ### Formatage des partitions en ext4
 
-> `mkfs.ext4` crée un système de fichiers **ext4** (Fourth Extended Filesystem), le standard sur Linux.
+> `mkfs.ext4` crée un système de fichiers **ext4** (Fourth Extended Filesystem).
 
 #### `mkfs.ext4 /dev/sdb1`
 Formate la partition 1 en **ext4**.
@@ -99,7 +98,7 @@ Crée le répertoire `/mnt/backup` qui servira de point de montage pour la parti
 ### Montage des partitions
 
 > `mount` attache un système de fichiers à un répertoire (point de montage) de l'arborescence Linux.  
->  Maintenant que les dossiers existent, on peut monter les partitions sans erreur.
+>  Maintenant que les dossiers existent, on peut monter les partitions.  
 
 #### `mount /dev/sdb1 /mnt/group1`
 Monte la partition 1 dans le répertoire `/mnt/group1`.
@@ -123,7 +122,7 @@ Affiche les informations détaillées des partitions de `/dev/sdb`, notamment :
 - L'**UUID** de chaque partition
 - Le **point de montage** actuel  
 
-> Très utile pour récupérer les UUID nécessaires à la configuration de `/etc/fstab`.
+> Pour récupérer les UUID nécessaires à la configuration de `/etc/fstab`.
 
 ![](lsblk_-f_dev.png)        
 
@@ -139,7 +138,7 @@ Ouvre le fichier de configuration `/etc/fstab` avec l'éditeur de texte **nano**
 
 ![](nano_etc_fstab.png)      
 
-> Après avoir monté le volume de disque, créer les partitions et les dossiers pour les groupes j'ai entamé la création des comptes et groupes avec rôle.
+> Après avoir monté le volume de disque, créer les partitions et les dossiers pour les groupes place à la création des comptes et groupes avec rôle.
 ----
 
 # Création des comptes, des groupes et des rôles.    
