@@ -4,4 +4,4 @@
 C'est pour cela que dans le document [Installation Proxmox](../1.Installation%20de%20Proxmox/Installation%20Proxmox.md) j'ai installé la version 7.4.   
 #### Il faut donc passer par APT (via le paquet réseau) pour avoir une version stable et plus sécurisé de Proxmox.
 [Upgrade version 7 vers 8 ](https://pve.proxmox.com/wiki/Upgrade_from_7_to_8)   
-[Upgrade version 8 to 9 ](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9)  
+[Upgrade version 8 vers 9 ](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9)  
