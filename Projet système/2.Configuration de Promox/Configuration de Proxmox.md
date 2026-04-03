@@ -178,10 +178,17 @@ Ouvre le fichier de configuration `/etc/fstab` avec l'éditeur de texte **nano**
 
 ### Ajout du stockage dans les pools :   
 
-![](add_storage_poolgroup1.png)    
+![](add_storage_poolgroup1.png)  
+
+----
 ![](add_storage_poolgroup2.png)    
-![](add_storage_poolgroup3.png)    
+
+----
+![](add_storage_poolgroup3.png)  
+
+----
 ![](add_storage_poolbackup.png)  
 
 ----
 
+# Création d'un agrégat de 4 ports RJ45 :  
