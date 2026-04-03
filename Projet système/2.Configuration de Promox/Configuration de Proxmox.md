@@ -194,4 +194,5 @@ Ouvre le fichier de configuration `/etc/fstab` avec l'éditeur de texte **nano**
 # Création d'un agrégat de 4 ports RJ45 :  
 ### Afin de créer de la résilience et un débit plus conséquent j'ai agrégé les 4 ports RJ45 du serveur Dell.  
 ----
-#### Pour pouvoir agrégé les ports il faut connaître leur nom respectif. J'ai donc fait un '> cat /etc/network/interfaces'.  
+#### Pour pouvoir agrégé les ports il faut connaître leur nom respectif. J'ai donc fait un :
+ > cat /etc/network/interfaces  
