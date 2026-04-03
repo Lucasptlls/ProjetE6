@@ -215,7 +215,7 @@ root@pve-dell:~# cat /etc/network/interfaces
 auto lo
 iface lo inet loopback
 
-auto eno1
+auto eno1 <!-- Interface RJ 45 -->
 iface eno1 inet manual
 
 auto eno2
@@ -230,7 +230,7 @@ iface eno4 inet manual
 auto enp15s0f0
 iface enp15s0f0 inet manual
 
-auto enp15s0f1
+auto enp15s0f1 
 iface enp15s0f1 inet manual
 
 auto enp16s0f0
