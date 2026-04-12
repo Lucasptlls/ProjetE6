@@ -247,7 +247,7 @@ iface eno4 inet manual
 
 #### Via interface web :  
 
-![](create_br_web.png)  
+![](create_br_gui.png)  
 
 ----
 
