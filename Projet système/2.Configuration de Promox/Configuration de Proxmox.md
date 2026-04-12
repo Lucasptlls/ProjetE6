@@ -235,8 +235,14 @@ iface eno4 inet manual
 
 -----
 
-### Via CLI avec la commande " nano /etc/network/interfaces " :  
+#### Via CLI avec la commande " nano /etc/network/interfaces " :  
 
 ![](create_bond_cli.png)  
 
+##### Dans les 2 cas il ne faut pas mettre d'addresse IP sur l'aggrégat car c'est le Bridge que je vais créer ensuite qui aura une IP.
 
+-----
+
+### Création du Bridge avec l'aggrégat :  
+
+#### Via interface web :  
