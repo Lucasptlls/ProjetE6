@@ -246,3 +246,13 @@ iface eno4 inet manual
 ### Création du Bridge avec l'aggrégat :  
 
 #### Via interface web :  
+
+![](create_br_web.png)  
+
+----
+
+#### Via CLI avec la commande " nano /etc/network/interfaces " :  
+
+![](create_br_cli.png)  
+
+
