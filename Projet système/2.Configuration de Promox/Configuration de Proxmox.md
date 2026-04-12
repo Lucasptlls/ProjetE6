@@ -227,3 +227,16 @@ iface eno3 inet manual
 auto eno4 <-- Interface RJ 45 
 iface eno4 inet manual
 ```
+### Maintenant que j'ai les noms des interfaces il faut créer l'aggrégat soit depuis l'interface web ou en CLI : 
+
+#### Via interface Web :  
+
+![](create_bond.png)  
+
+-----
+
+### Via CLI avec la commande " nano /etc/network/interfaces " :  
+
+![](create_bond_cli.png)  
+
+
